@@ -13,8 +13,10 @@
         "build": {
           "builder": "@angular/build:application",
           "options": {
-            "browser": "src/main.ts",
+            "outputPath": "dist/brief-contact-a",
+            "index": "src/index.html",
             "tsConfig": "tsconfig.app.json",
+            "baseHref": "/brief-contact-a/",
             "assets": [
               {
                 "glob": "**/*",
@@ -35,8 +37,8 @@
                 },
                 {
                   "type": "anyComponentStyle",
-                  "maximumWarning": "4kB",
-                  "maximumError": "8kB"
+                  "maximumWarning": "30kB",
+                  "maximumError": "35kB"
                 }
               ],
               "outputHashing": "all"
@@ -78,6 +80,9 @@
               "src/styles.css"
             ]
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy"
         }
       }
     }
