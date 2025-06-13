@@ -117,7 +117,7 @@
     "phone": "+33 1 23 45 67 12",
     "role": "Dôme Brillant",
     "about": "Honorée mène ses réflexions stratégiques avec un éclat particulier !",
-    "image": "/img/chauve-10.jpeg"
+    "image": "img/chauve-10.jpeg"
   },
   {
     "id": 13,
@@ -127,7 +127,7 @@
     "phone": "+33 1 23 45 67 13",
     "role": "Alopécie Radieuse",
     "about": "Le salon qui fait briller les crânes ! Spécialistes du rasage premium et des soins pour cuir chevelu dégarni. Parce qu'avoir moins de cheveux, c'est avoir plus de style.",
-    "image": "img/fournisseur-1.jpeg"
+    "image": "/img/fournisseur-1.jpeg"
   },
   {
     "id": 14,
